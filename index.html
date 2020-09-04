@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/00ddca2673.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <a href="#">Stay and Eat</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                </div>
+            </div>
+            <ul class="nav-items">
+                <li class="nav-link">
+                    <a href="#">PG/Hostel</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Tiffin</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Cart</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="left-section">
+            <h3>Filters</h3>
+            <div class="price">
+                <h3>Price</h3>
+                <label for="below200">
+                    <input type="radio" id="below200" name="price" value="below200"> Below 200
+                </label>
+                <label for="below300">
+                    <input type="radio" id="below300" name="price" value="below300"> Below 300
+                </label>
+            </div>
+            <div class="time">
+                <h3>Time</h3>
+                <label for="1hr">
+                    <input type="radio" id="1hr" name="time" value="1hr"> Within 1 hour
+                </label>
+                <label for="2hr">
+                    <input type="radio" id="2hr" name="time" value="2hr"> Within 2 hour
+                </label>
+                <label for="3hr">
+                    <input type="radio" id="2hr" name="time" value="3hr"> Within 3 hour
+                </label>
+            </div>
+        </div>
+        <div class="right-section">
+            <h3>Top Picks</h3>
+            <div class="result-section">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="./dibba3.jpg" alt="dibba">
+                    </div>
+                    <div class="card-body">
+                        <p class="name">Name: Laxmi Tiffin Service</p>
+                        <p class="quantity">Quantity: For 2</p>
+                        <p class="price">Price: ₹ 500</p>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="./dibba3.jpg" alt="dibba">
+                    </div>
+                    <div class="card-body">
+                        <p class="name">Name: Laxmi Tiffin Service</p>
+                        <p class="quantity">Quantity: For 2</p>
+                        <p class="price">Price: ₹ 500</p>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="./dibba3.jpg" alt="dibba">
+                    </div>
+                    <div class="card-body">
+                        <p class="name">Name: Laxmi Tiffin Service</p>
+                        <p class="quantity">Quantity: For 2</p>
+                        <p class="price">Price: ₹ 500</p>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="./dibba3.jpg" alt="dibba">
+                    </div>
+                    <div class="card-body">
+                        <p class="name">Name: Laxmi Tiffin Service</p>
+                        <p class="quantity">Quantity: For 2</p>
+                        <p class="price">Price: ₹ 500</p>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="./dibba3.jpg" alt="dibba">
+                    </div>
+                    <div class="card-body">
+                        <p class="name">Name: Laxmi Tiffin Service</p>
+                        <p class="quantity">Quantity: For 2</p>
+                        <p class="price">Price: ₹ 500</p>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="./dibba3.jpg" alt="dibba">
+                    </div>
+                    <div class="card-body">
+                        <p class="name">Name: Laxmi Tiffin Service</p>
+                        <p class="quantity">Quantity: For 2</p>
+                        <p class="price">Price: ₹ 500</p>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(() => {
+            $nav = $('.header');
+            $toggleCollapse = $('.toggle-collapse');
+            $toggleCollapse.click(() => {
+                $nav.toggleClass('collapse');
+            });
+        });
+    </script>
+</body>
+
+</html>
