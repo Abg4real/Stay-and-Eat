@@ -298,7 +298,10 @@ main .right-section .result-section .card .card-body button {
   }
   main .left-section {
     margin: 1rem auto;
-    width: 60vw;
+    width: 70vw;
+  }
+  main .right-section {
+    margin: 1rem auto;
   }
   main .right-section .result-section {
     -ms-grid-columns: 1fr;

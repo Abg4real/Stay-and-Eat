@@ -209,9 +209,10 @@ main {
     grid-template-columns: 1fr;
     .left-section {
       margin: 1rem auto;
-      width: 60vw;
+      width: 70vw;
     }
     .right-section {
+      margin: 1rem auto;
       .result-section {
         grid-template-columns: 1fr;
         .card {
